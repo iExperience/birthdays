@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:700,400italic,700italic);
 
+/* Main styles
+ * CHANGING ANYTHING HERE WILL CHANGE EVERY SINGLE PAGE
+ */
 body {
   font: 16px/1.3 normal 'Lato', helvetica;
   background-color: #4ABD9B;
@@ -78,49 +81,4 @@ header:hover {
   background-position: center center;
   background-repeat: no-repeat;
   width: auto; height: auto; z-index: -100;
-}
-
-/* Zack's page */
-
-.zack.bg-img {
-  background-image: url(/birthdays/images/zack-beach.png);
-}
-.zack-carousel-container {
-  position: absolute;
-  bottom: 30px;
-  right: 30px;
-  width: 50%;
-}
-
-.zack .carousel-control.right, .zack .carousel-control.left {
-  background-image: none;
-}
-.zack .carousel-inner {
-  width: 60%;
-  margin-left: 20%;
-}
-.zack .comment {
-  font-size: 24px;
-}
-.zack .author {
-  text-align: right;
-}
-.zack .item {
-  height: 150px;
-  overflow-y: scroll;
-  -webkit-transition: 0.4s ease-in-out left;
-  -moz-transition: 0.4s ease-in-out left;
-  -o-transition: 0.4s ease-in-out left;
-  transition: 0.4s ease-in-out left;
-}
-.zack-text {
-  margin-left: 40px;
-  margin-top: 50px;
-}
-.zack-header {
-  font-size: 60px;
-  margin-bottom: 20px;
-}
-.zack-date {
-  font-size: 30px;
 }
