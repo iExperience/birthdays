@@ -87,8 +87,8 @@ header:hover {
 }
 .zack-carousel-container {
   position: absolute;
-  bottom: 50px;
-  right: 50px;
+  bottom: 30px;
+  right: 30px;
   width: 50%;
 }
 
@@ -108,6 +108,10 @@ header:hover {
 .zack .item {
   height: 150px;
   overflow-y: scroll;
+  -webkit-transition: 0.4s ease-in-out left;
+  -moz-transition: 0.4s ease-in-out left;
+  -o-transition: 0.4s ease-in-out left;
+  transition: 0.4s ease-in-out left;
 }
 .zack-text {
   margin-left: 40px;
