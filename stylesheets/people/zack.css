@@ -18,13 +18,13 @@
   margin-left: 20%;
 }
 .zack .comment {
-  font-size: 24px;
+  font-size: 20px;
 }
 .zack .author {
   text-align: right;
 }
 .zack .item {
-  height: 150px;
+  height: 200px;
   overflow-y: scroll;
   -webkit-transition: 0.4s ease-in-out left;
   -moz-transition: 0.4s ease-in-out left;

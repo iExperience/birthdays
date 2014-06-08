@@ -19,7 +19,7 @@ To create a new person page, first edit `index.html` with a picture of them. The
       </a>
     </div>
 
-The HTML in comments is for making the page responsive—Twitter Bootstrap (already included on the page) makes it easy to control layout on mobile and desktop. Documentation at [getbootstrap.com/css/#grid](http://getbootstrap.com/css/#grid).  
+Note that whenever there is `person`, you should put the name of the person you're creating the page for, i.e. "Alice". The HTML in comments is for making the page responsive—Twitter Bootstrap (already included on the page) makes it easy to control layout on mobile and desktop. Documentation at [getbootstrap.com/css/#grid](http://getbootstrap.com/css/#grid).  
 
 ###### Person page HTML
 
@@ -31,7 +31,7 @@ Similarly, create an appropriately named CSS file in `/stylesheets/people`. All 
 
 ### Testing
 
-To test you code, navigate to the directory **above** the `birthdays` folder (that is, when you `ls`, `birthdays` should be among the folders listed). From there, run `python -m SimpleHTTPServer`. Then you should be able to see your code by navigating to `http://localhost:8000/birthdays`. Note that just opening the file in Chrome **will not work**.
+To test you code, navigate to the directory **above** the `birthdays` folder (that is, when you `ls`, `birthdays` should be among the folders listed). From there, run `python -m SimpleHTTPServer`. Then you should be able to see your code by navigating to `http://localhost:8000/birthdays`. Note that just opening the `index.html` file in a web browser **will not work**.
 
 ### Good Coding Practices
 
