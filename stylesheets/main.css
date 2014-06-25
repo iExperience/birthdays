@@ -27,6 +27,7 @@ header:hover {
   border-radius: 500px;
   cursor: pointer;
   border: 4pt solid white;
+  margin-bottom: 30px;
 }
 
 .birthday-person > .overlay {
