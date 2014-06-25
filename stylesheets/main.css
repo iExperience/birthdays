@@ -83,3 +83,43 @@ header:hover {
   background-repeat: no-repeat;
   width: auto; height: auto; z-index: -100;
 }
+
+.carousel-container {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 50%;
+}
+
+.carousel-control.right, .zack .carousel-control.left {
+  background-image: none;
+}
+.carousel-inner {
+  width: 60%;
+  margin-left: 20%;
+}
+.comment {
+  font-size: 20px;
+}
+.author {
+  text-align: right;
+}
+.item {
+  height: 200px;
+  overflow-y: scroll;
+  -webkit-transition: 0.4s ease-in-out left;
+  -moz-transition: 0.4s ease-in-out left;
+  -o-transition: 0.4s ease-in-out left;
+  transition: 0.4s ease-in-out left;
+}
+.text {
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.header {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.date {
+  font-size: 30px;
+}
