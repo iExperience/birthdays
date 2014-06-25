@@ -1,3 +1,7 @@
 .mikenzie.bg-img {
-  background-image: url(/birthdays/images/people/mikenzie_cover.jpg);
+  	background-image: url(/birthdays/images/people/mikenzie_cover.jpg);
+}
+
+.mikenzie {
+	color: #dfeef7;
 }
